@@ -2234,24 +2234,18 @@
   },
   {
     "id": 144,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "What is the Endpoint when configuring a REST Message?",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. The URI of the WebServer",
+      "B. The command to the REST script to stop execution",
+      "C. The URI of the data to be accessed, queried, or modified",
+      "D. The provider response indicates there is no data to send back"
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. The URI of the data to be accessed, queried, or modified"
     ],
     "type": "single",
-    "category": "UI & Form Design"
+    "category": "Web Services & REST APIs"
   },
   {
     "id": 145,
@@ -2470,255 +2464,204 @@
   },
   {
     "id": 158,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "Which options are strategies for debugging client-side scripts? (Choose two.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. g_form.addInfoMessage()",
+      "B. gs.addErrorMessage()",
+      "C. gs.log()",
+      "D. jslog()"
     ],
     "correct": [
-      "D. a, b, and c"
+      "A. g_form.addInfoMessage()",
+      "D. jslog()"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Client-Side Scripting & Debugging"
   },
   {
     "id": 159,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "In a privately-scoped application, which methods are used for logging messages in server-side scripts? (Choose two.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. gs.logError()",
+      "B. gs.log()",
+      "C. gs.debug()",
+      "D. gs.info()",
+      "E. gs.error()"
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. gs.debug()",
+      "D. gs.info()"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Server-Side Scripting"
   },
   {
     "id": 160,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "When creating an application through the Guided Application Creator, what are the options for creating a table? (Choose three.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Run import jobs",
+      "B. Use API calls",
+      "C. Create a table from a template",
+      "D. Create a table from scratch",
+      "E. Link to external tables",
+      "F. Extend a table",
+      "G. Upload a spreadsheet"
     ],
     "correct": [
-      "D. a, b, and c"
+      "D. Create a table from scratch",
+      "F. Extend a table",
+      "G. Upload a spreadsheet"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Guided Application Creator"
   },
   {
     "id": 161,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "Which one of the following database operations can be controlled with Application Access? (Choose two.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Query",
+      "B. Update",
+      "C. Create",
+      "D. Delete"
     ],
     "correct": [
-      "D. a, b, and c"
+      "B. Update",
+      "C. Create"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Application Scoping & Security"
   },
   {
     "id": 162,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "Which is an example of when an application might use a Scheduled Script Execution (Scheduled Job)?",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. The application needs to run a client-side script at the same time every day.",
+      "B. The application needs to query the database every day to look for unassigned records.",
+      "C. To display a custom welcome message when a user logs in.",
+      "D. To validate form input fields before a record is submitted."
     ],
     "correct": [
-      "D. a, b, and c"
+      "B. The application needs to query the database every day to look for unassigned records."
     ],
     "type": "single",
-    "category": "UI & Form Design"
+    "category": "Scheduled Jobs & Automation"
   },
   {
     "id": 163,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "What field type would you select if you want to query records from another table on a form?",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Use the Date field type.",
+      "B. Use the Phone Number field type.",
+      "C. Use the String field type.",
+      "D. Use the Reference field type."
     ],
     "correct": [
-      "D. a, b, and c"
+      "D. Use the Reference field type."
     ],
     "type": "single",
-    "category": "UI & Form Design"
+    "category": "Table Design & Inheritance"
   },
   {
     "id": 164,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "What functionality is supported by Flow Designer?",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. The role flow_operator can create and edit flows.",
+      "B. Flows can be 'Run as' security admin.",
+      "C. Call a subflow from a flow.",
+      "D. Flows can trigger off a record being deleted."
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. Call a subflow from a flow."
     ],
     "type": "single",
-    "category": "UI & Form Design"
+    "category": "Flow Designer & Automation"
   },
   {
     "id": 165,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "What is a characteristic of Modules?",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Every Module must be associated with a table.",
+      "B. Access to Modules is not controlled with roles.",
+      "C. Every Module must be part of an Application Menu.",
+      "D. Modules cannot open forms or lists."
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. Every Module must be part of an Application Menu."
     ],
     "type": "single",
-    "category": "UI & Form Design"
+    "category": "UI & Navigation"
   },
   {
     "id": 166,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "Which method can be used to install an application on a ServiceNow instance? (Choose three.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Install from the Google Play Store.",
+      "B. Download from Stack Overflow.",
+      "C. Download and install a third-party application from the ServiceNow Store.",
+      "D. Use the 'Install' button on the application record.",
+      "E. Install an application from the Application Repository.",
+      "F. Import an application from an XML file."
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. Download and install a third-party application from the ServiceNow Store.",
+      "E. Install an application from the Application Repository.",
+      "F. Import an application from an XML file."
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Application Deployment"
   },
   {
     "id": 167,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "Which one of the following is the correct Link Type to select when creating a module which opens the Record Producer UI instead of a Form UI?",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. URL (from Arguments:)",
+      "B. Content Page",
+      "C. Script (from Arguments:)",
+      "D. HTML (from Arguments:)"
     ],
     "correct": [
-      "D. a, b, and c"
+      "A. URL (from Arguments:)"
     ],
     "type": "single",
-    "category": "UI & Form Design"
+    "category": "UI & Navigation"
   },
   {
     "id": 168,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "Which are valid caller access field options? (Choose three.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Caller Tracking",
+      "B. Accessible from",
+      "C. None",
+      "D. Allow Configuration",
+      "E. Caller Restriction",
+      "F. Caller Permission"
     ],
     "correct": [
-      "D. a, b, and c"
+      "A. Caller Tracking",
+      "C. None",
+      "E. Caller Restriction"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Application Scoping & Security"
   },
   {
     "id": 169,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "Which items are valid UI Action types in ServiceNow? (Choose three.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. List banner button",
+      "B. Form button",
+      "C. Record navigation button",
+      "D. List choice",
+      "E. Form choice",
+      "F. Workflow action"
     ],
     "correct": [
-      "D. a, b, and c"
+      "A. List banner button",
+      "B. Form button",
+      "D. List choice"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "UI Actions & Forms"
   },
   {
     "id": 170,
@@ -2812,66 +2755,51 @@
   },
   {
     "id": 176,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "How can an application respond to an Event triggered by the gs.eventQueue() method? (Choose two.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Client Script",
+      "B. UI Policy",
+      "C. Script Action",
+      "D. Scheduled Script Execution (Scheduled Job)",
+      "E. Email Notification"
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. Script Action",
+      "E. Email Notification"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Events & Notifications"
   },
   {
     "id": 177,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "What is a scoped application that contains Flow Designer actions tailored for a specific application or record type?",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. Bundle",
+      "B. Flow",
+      "C. Spoke",
+      "D. Action"
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. Spoke"
     ],
     "type": "single",
-    "category": "UI & Form Design"
+    "category": "Flow Designer & Automation"
   },
   {
     "id": 178,
-    "question": "Which of the following statements is true for the Form Designer?",
-    "options": [
-      "a) To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
-      "b) To create a new field on a form's table, drag the appropriate data type from the Field Types tab to the form and then configure the new field.",
-      "c) To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button.",
-      "d) To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form."
-    ],
+    "question": "What is a reason for building a custom application? (Choose two.)",
     "choices": [
-      "A. a, b, c, and d",
-      "B. b, c, and d",
-      "C. a, b, and d",
-      "D. a, b, and c"
+      "A. To avoid using application repository",
+      "B. To replace ServiceNow base tables",
+      "C. To create a custom integration for a 3rd party system",
+      "D. To fulfill a specific use case on internal processes"
     ],
     "correct": [
-      "D. a, b, and c"
+      "C. To create a custom integration for a 3rd party system",
+      "D. To fulfill a specific use case on internal processes"
     ],
-    "type": "single",
-    "category": "UI & Form Design"
+    "type": "multiple",
+    "category": "Application Design"
   },
   {
     "id": 179,
